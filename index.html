@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Kalkulator - Heri R</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/solid.css" integrity="sha384-osqezT+30O6N/vsMqwW8Ch6wKlMofqueuia2H7fePy42uC05rm1G+BUPSd2iBSJL"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+  <div class="col d-flex justify-content-center penampung">
+    <div class="col-5 d-flex justify-content-center kalkulator-area">
+      <div class="kalkulator text-center">
+        <div class="judul">
+          <h2>Kalkulator Hitung Dua Angka</h2>
+          <h4>Heri Risnanto</h4>
+        </div>
+        <div class="operand1">
+          <input type="text">
+        </div>
+        <div class="operator">
+          <select id="operator">
+            <option value="tambah">
+              &#xf055 Tambah
+            </option>
+            <option value="kurang">
+              &#xf056 Kurang
+            </option>
+            <option value="kali">
+              &#xf057 Kali
+            </option>
+            <option value="bagi">
+              &#xf529 Bagi
+            </option>
+          </select>
+        </div>
+        <div class="operand2">
+          <input type="text">
+        </div>
+        <div class="samadengan">
+          <button> <span style="color: Dodgerblue;">
+              <i class="fas fa-equals"></i>
+            </span> </button>
+        </div>
+        <div class="hasil">
+          <input type="text" readonly>
+        </div>
+      </div>
+      <script src="kalkulator.js"></script>
+    </div>
+  </div>
+</body>
+</html>
